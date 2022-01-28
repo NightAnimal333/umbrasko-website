@@ -11,7 +11,7 @@
 
 * {
     font-family: "Ubuntu-Regular";
-    background-color: royalblue;
+    background-color: rgb(42, 45, 54);
     color: seashell;
 }
 
@@ -43,7 +43,7 @@
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: rgb(44, 77, 173); /* Black */
+    background-color: rgb(56, 1, 88); /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
   }
@@ -97,8 +97,17 @@
     color: gray;
   }
   
+  .work{
+    padding-top: 50px;
+  }
 
-  
+  .screenshot{
+    width: 256px;
+    height: 144px;
+    display: block;
+    padding-top: 25px;
+  }
+
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
     .indexnav {padding-top: 15px;}
